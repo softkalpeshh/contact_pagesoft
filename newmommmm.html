@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        address {
+            font-style: normal;
+            line-height: 1.8;
+            font-size: 16px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Contact Information</h2>
+
+        <p><b><u>Name</u>:</b> <i>Kalpesh Ahire</i></p>
+
+        <address>
+            Email:
+            <a href="mailto:kalpeshahire914@gmail.com">
+                kalpeshahire914@gmail.com
+            </a>
+            <br>
+            College: MET'S Institute of Polytechnic
+            <br>
+            Department: Information Technology
+            <br>
+            Mobile: 9890214509
+        </address>
+    </div>
+
+</body>
+</html>
